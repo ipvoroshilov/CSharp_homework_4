@@ -34,7 +34,7 @@ catch
 
 string sortFromMaxToMin(int maxInd = 0,int curInd = 0,int temp = 0, int ind = 0,string result = "")
 {
-        for (maxInd = 0; maxInd < array.Length; maxInd++)
+    for (maxInd = 0; maxInd < array.Length; maxInd++)
     {
         for (curInd = 0; curInd < array.Length; curInd++)
         {
@@ -119,4 +119,3 @@ catch
 // {
 //     Console.WriteLine("error");
 // }
-
